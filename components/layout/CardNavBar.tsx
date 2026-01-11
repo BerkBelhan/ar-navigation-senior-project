@@ -1,0 +1,57 @@
+"use client";
+
+import CardNav, { CardNavItem } from "@/components/layout/CardNav";
+
+export default function CardNavbar() {
+  const items: CardNavItem[] = [
+    {
+      label: "Process",
+      bgColor: "rgb(56, 56, 55, 0.5)",
+      textColor: "#fff",
+      links: [
+        {
+          label: "How it works",
+          href: "/process",
+          ariaLabel: "Process page",
+        },
+      ],
+    },
+    {
+      label: "Team",
+      bgColor: "rgb(56, 56, 55,0.5)",
+      textColor: "#fff",
+      links: [
+        {
+          label: "Members",
+          href: "/team",
+          ariaLabel: "Team page",
+        },
+      ],
+    },
+    {
+      label: "Contact",
+      bgColor: "rgb(56, 56, 55,0.5)",
+      textColor: "#fff",
+      links: [
+        {
+          label: "GitHub",
+          href: "https://github.com/BerkBelhan",
+          ariaLabel: "GitHub repository",
+        },
+      ],
+    },
+  ];
+
+  return (
+    <CardNav
+      logo=""                 // empty → uses brandText
+      brandText="Guid-AR"
+      brandHref="/"
+      items={items}
+      baseColor="#0a0a0a"
+      menuColor="#fff"
+      buttonBgColor="#111"
+      buttonTextColor="#fff"
+    />
+  );
+}
