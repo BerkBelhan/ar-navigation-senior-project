@@ -4,6 +4,7 @@ import { gsap } from 'gsap';
 // use your own icon import if react-icons is not available
 import { GoArrowUpRight } from 'react-icons/go';
 import './CardNav.css';
+import Link from 'next/link';
 
 type CardNavLink = {
   label: string;
@@ -212,12 +213,12 @@ const CardNav: React.FC<CardNavProps> = ({
             {logo ? (
               <img src={logo} alt={logoAlt} className="logo" />
             ) : (
-              <a
+              <Link
                 href={brandHref ?? "/"}
                 className="brand-text"
               >
                 {brandText}
-              </a>
+              </Link>
             )}
           </div>
           <button
@@ -242,10 +243,10 @@ const CardNav: React.FC<CardNavProps> = ({
               <div className="nav-card-label">{item.label}</div>
               <div className="nav-card-links">
                 {item.links?.map((lnk, i) => (
-                  <a key={`${lnk.label}-${i}`} className="nav-card-link" href={lnk.href} aria-label={lnk.ariaLabel}>
+                  <Link key={`${lnk.label}-${i}`} className="nav-card-link" href={lnk.href} aria-label={lnk.ariaLabel}>
                     <GoArrowUpRight className="nav-card-link-icon" aria-hidden="true" />
                     {lnk.label}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
