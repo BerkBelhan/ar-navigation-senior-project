@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
+import { FaLinkedin} from 'react-icons/fa';
 import './ChromaGrid.css';
 
 export interface ChromaItem {
@@ -132,8 +133,11 @@ export const ChromaGrid: React.FC<ChromaGridProps> = ({
             <img src={c.image} alt={c.title} loading="lazy" />
           </div>
           <footer className="chroma-info">
-            <h3 className="name">{c.title}</h3>
-            {/* CHANGED: Removed the handle code */}
+            <h3 className="name flex items-center justify-center gap-2">
+            {c.url && <FaLinkedin className='text-blue-400 text-lg' />}
+            {c.title}
+            </h3>
+            {/*  */}
             <p className="role">{c.subtitle}</p>
             {c.location && <span className="location">{c.location}</span>}
           </footer>

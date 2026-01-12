@@ -44,7 +44,7 @@ export default function CardNavbar() {
 
   return (
     <CardNav
-      logo=""                 // empty → uses brandText
+      logo=""                 // will be empty, it will be using brandText
       brandText="Guid-AR"
       brandHref="/"
       items={items}

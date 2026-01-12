@@ -13,36 +13,35 @@ export default function TeamPage() {
       url: "https://www.linkedin.com/in/berkbelhan/"
     },
     {
-      image: "",
+      image: "/images/Alperen.jpeg",
       title: "Alperen Karadağ",
       subtitle: "Backend Developer",
       handle: "@mikechen",
       borderColor: "#464646",
       gradient: "linear-gradient(180deg, #444445, #000)",
-      url: ""
+      url: "https://www.linkedin.com/in/alperen-karada%C4%9F-734131269/"
     },
     {
-      image: "",
+      image: "/images/Berke.jpeg",
       title: "Altuğ Berke Akman",
       subtitle: "Backend Developer",
       borderColor: "#464646",
       gradient: "linear-gradient(145deg, #444445, #000)",
-      url: ""
+      url: "https://www.linkedin.com/in/berke-akman/"
     },
     {
-      image: "",
+      image: "/images/Ceren.jpeg  ",
       title: "Ceren Duru Kızılırmak",
       subtitle: "Backend Developer",
       handle: "@mikechen",
       borderColor: "#464646",
       gradient: "linear-gradient(180deg, #444445, #000)",
-      url: ""
+      url: "https://www.linkedin.com/in/ceren-kizilirmak-407443258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     }
   ];
 
   return (
     <main className="pt-24 ">
-        <CardNavBar />
       <div className="h-16" />
       <h1 className="text-3xl font-semibold mb-16 text-center">
 
