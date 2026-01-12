@@ -5,7 +5,7 @@ import { basePath } from "@/lib/basepath";
 export default function TeamPage() {
   const members = [
     {
-      image: `${basePath}/139067173.png`,
+      image: `${basePath}/images/139067173.png`,
       title: "Berk Belhan",
       subtitle: "Backend Developer",
       borderColor: "#464646",

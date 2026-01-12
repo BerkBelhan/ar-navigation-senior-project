@@ -1,6 +1,7 @@
 "use client";
 
 import CardNav, { CardNavItem } from "@/components/layout/CardNav";
+import {basePath} from "@/lib/basepath";
 
 export default function CardNavbar() {
   const items: CardNavItem[] = [
@@ -11,7 +12,7 @@ export default function CardNavbar() {
       links: [
         {
           label: "How it works",
-          href: "/process",
+          href: `${basePath}/process`,
           ariaLabel: "Process page",
         },
       ],
@@ -23,7 +24,7 @@ export default function CardNavbar() {
       links: [
         {
           label: "Members",
-          href: "/team",
+          href: `${basePath}/team`,
           ariaLabel: "Team page",
         },
       ],
@@ -46,7 +47,7 @@ export default function CardNavbar() {
     <CardNav
       logo=""                 // will be empty, it will be using brandText
       brandText="Guid-AR"
-      brandHref="/"
+      brandHref={`${basePath}/`}
       items={items}
       baseColor="#0a0a0a"
       menuColor="#fff"
