@@ -1,12 +1,11 @@
 "use client";
 import ChromaGrid from "@/components/layout/ChromaGrid";
 import CardNavBar from "@/components/layout/CardNavBar";
-import {basePath} from "@/lib/basepath";
-
+import { basePath } from "@/lib/basepath";
 export default function TeamPage() {
   const members = [
     {
-      image: `${basePath}/images/139067173.png`,
+      image: `${basePath}/139067173.png`,
       title: "Berk Belhan",
       subtitle: "Backend Developer",
       borderColor: "#464646",
@@ -17,6 +16,7 @@ export default function TeamPage() {
       image: `${basePath}/images/Alperen.jpeg`,
       title: "Alperen Karadağ",
       subtitle: "Backend Developer",
+      handle: "@mikechen",
       borderColor: "#464646",
       gradient: "linear-gradient(180deg, #444445, #000)",
       url: "https://www.linkedin.com/in/alperen-karada%C4%9F-734131269/"
@@ -33,6 +33,7 @@ export default function TeamPage() {
       image: `${basePath}/images/Ceren.jpeg`,
       title: "Ceren Duru Kızılırmak",
       subtitle: "Backend Developer",
+      handle: "@mikechen",
       borderColor: "#464646",
       gradient: "linear-gradient(180deg, #444445, #000)",
       url: "https://www.linkedin.com/in/ceren-kizilirmak-407443258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
