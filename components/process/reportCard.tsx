@@ -5,13 +5,15 @@ import { GoArrowDown } from "react-icons/go";
 
 interface ReportCardProps {
   title: string;
-  file: string;
+  file: string; 
 }
 
 export default function ReportCard({ title, file }: ReportCardProps) {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
   return (
     <motion.a
-      href={`/${file}`}
+      href={`${basePath}/${file}.pdf`}
       download
       target="_blank"
       rel="noopener noreferrer"
@@ -27,7 +29,6 @@ export default function ReportCard({ title, file }: ReportCardProps) {
         transition
       "
     >
-      {/* Title */}
       <div>
         <h3 className="text-lg font-medium text-white mb-2">
           {title}
@@ -37,7 +38,6 @@ export default function ReportCard({ title, file }: ReportCardProps) {
         </p>
       </div>
 
-      {/* Download indicator */}
       <div className="mt-6 flex items-center justify-between">
         <span className="text-sm text-gray-400 group-hover:text-white transition">
           Download
@@ -45,7 +45,6 @@ export default function ReportCard({ title, file }: ReportCardProps) {
         <GoArrowDown className="text-xl text-gray-400 group-hover:text-accent transition" />
       </div>
 
-      {/* Hover glow */}
       <div
         className="
           pointer-events-none absolute inset-0 rounded-2xl

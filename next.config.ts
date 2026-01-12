@@ -1,7 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  
+
+  basePath: "/ar-navigation-senior-project",
+  
+  assetPrefix: "/ar-navigation-senior-project/",
+
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
