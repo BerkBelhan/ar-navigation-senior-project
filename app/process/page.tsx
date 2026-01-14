@@ -10,8 +10,8 @@ export default function ProcessPage() {
 
 
       <div className="grid md:grid-cols-3 gap-6">
-        <ReportCard title="Project Proposal" file="CMPE491_Project_Proposal_" />
-        <ReportCard title="Project Specifications" file="CMPE491_Project_Specifications_" />
+        <ReportCard title="Project Proposal" file="CMPE491_Project_Proposal_v2" />
+        <ReportCard title="Project Specifications" file="CMPE491_Project_Specifications_v2" />
         <ReportCard title="Analysis Report" file="CMPE491_Analysis_Report" />
         <ReportCard title="High-Level Design Report" file="CMPE491_High_Level_Design_Report" />
       </div>
