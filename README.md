@@ -1,6 +1,8 @@
 # Guide-AR: Indoor Navigation Reimagined
 
 ![Project Status](https://img.shields.io/badge/Status-In%20Development-blue?style=flat-square)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Guide--AR-blue?style=for-the-badge\&logo=google-chrome)](https://berkbelhan.github.io/ar-navigation-senior-project/)
+[![Project Page](https://img.shields.io/badge/Project%20Page-Visit-green?style=for-the-badge\&logo=github)](https://berkbelhan.github.io/ar-navigation-senior-project/)
 ![Next.js](https://img.shields.io/badge/Next.js-15.0-black?style=flat-square&logo=next.js)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_v4-CSS-38B2AC?style=flat-square&logo=tailwind-css)
 
