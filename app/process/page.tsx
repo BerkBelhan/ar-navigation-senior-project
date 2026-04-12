@@ -17,6 +17,7 @@ export default function ProcessPage() {
         <ReportCard title="Backlog Document" file="CMPE492_Backlog_Document" />
         <ReportCard title="Low-Level Design Report" file="CMPE492_Low_Level_Design_Report" />
         <ReportCard title="Low-Level Design Report Version 2" file="CMPE492_Low_Level_Design_Report_v2" />
+        <ReportCard title="Test Plan" file="CMPE492_Test_Plan_Report" />
       </div>
     </main>
   );
