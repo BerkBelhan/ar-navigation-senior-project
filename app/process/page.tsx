@@ -14,10 +14,11 @@ export default function ProcessPage() {
         <ReportCard title="Project Specifications" file="CMPE491_Project_Specifications_v2" />
         <ReportCard title="Analysis Report" file="CMPE491_Analysis_Report" />
         <ReportCard title="High-Level Design Report" file="CMPE491_High_Level_Design_Report" />
-        <ReportCard title="Backlog Document" file="CMPE492_Backlog_Document" />
+        <ReportCard title="Backlog Document" file="CMPE492_Senior_Design_Project_Backlog" />
         <ReportCard title="Low-Level Design Report" file="CMPE492_Low_Level_Design_Report" />
         <ReportCard title="Low-Level Design Report Version 2" file="CMPE492_Low_Level_Design_Report_v2" />
         <ReportCard title="Test Plan" file="CMPE492_Test_Plan_Report" />
+        <ReportCard title="Final Report" file="CMPE492_GuidAR_Final_Report" />
       </div>
     </main>
   );
